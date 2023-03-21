@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.phoneValidate {
+    background-color: rgb(89, 73, 142);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+input {
+    height: 30px;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit-phoneNumber {
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(229, 71, 71);
+    border-radius: 50px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+
+.submit-phoneNumber:hover {
+    color: rgb(229, 71, 71);
+    background-color: white;
+} 
+
+.addItem {
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(71, 187, 229);
+    border-radius: 50px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+
+.addItem:hover {
+    background-color: white;
+    color:  rgb(71, 187, 229);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 4px solid black;
+    margin-top: 50px;
+}
+
+.data-table td, .data-table th {
+    border: 4px solid black;
+}
+
+.data-table td {
+    font-weight: bold;
+    padding: 3px;
+}
+
+.data-table th {
+    background-color: brown;
+    color: white;
+}
+
+.updateBut {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.updateBut:hover {
+    color: blue;
+    background-color: white;
+}
+
+.deleteBut {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.deleteBut:hover {
+    background-color: white;
+    color: red;
+}
